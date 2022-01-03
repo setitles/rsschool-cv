@@ -1,1 +1,1 @@
-# rsschool-cv
+https://setitles.github.io/rsschool-cv/
