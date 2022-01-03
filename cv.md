@@ -10,6 +10,7 @@
 I am working as a prodyction DBA. I have a small online store that I serve myself.
 I like both DBA and Frontend. I have not decided to become a full-fledged Frontend developer or a Development DBA, a DBA developer.
 I know for sure that Java Script can be used in both areas, so I am studying it at the moment.
+
 ## Skills
 * HTML, CSS/SASS
 * JavaScript (Basic)
