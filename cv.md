@@ -5,6 +5,7 @@
 * **Email:** setitles@gmail.com 
 * **Discord:** @setitles
 * **GitHub:** setitles
+
 ## About Me
 I am working as a prodyction DBA. I have a small online store that I serve myself.
 I like both DBA and Frontend. I have not decided to become a full-fledged Frontend developer or a Development DBA, a DBA developer.
