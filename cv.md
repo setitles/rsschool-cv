@@ -1,5 +1,5 @@
 # Alexandrov Stanislav Vladimirovish
-![мое фото](assets\img\photo.jpg "мое фото")
+![мое фото](assets/img/photo.jpg "мое фото")
 ## Contacts
 * **Location:** Krasnoyarsk, Russia
 * **Email:** setitles@gmail.com 
