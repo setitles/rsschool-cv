@@ -16,10 +16,10 @@
         <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#About Me" class="nav-link">About Me</a></li>
+              <li class="nav-item"><a href="#About_Me" class="nav-link">About Me</a></li>
               <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#Work Examples" class="nav-link">Work Examples</a></li>
-              <li class="nav-item"><a href="#Code Example" class="nav-link">Code Example</a></li>
+              <li class="nav-item"><a href="#Work_Examples" class="nav-link">Work Examples</a></li>
+              <li class="nav-item"><a href="#Code_Example" class="nav-link">Code Example</a></li>
               <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
               <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
               <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
@@ -27,27 +27,26 @@
           </nav>
     </header>
     <main class="main">
-        <img src="./assets/img/avatar.jpg" alt="avatar">
-        <section class="section" id="FIO">
-            <h1>Alexandrov Stanislav Vladimirovish</h1>
-        </section>
-        <category class="main-container">
-            <section class="section" id="Contacts">
+            <section class="section" id="FIO" style="order: 1;">
+                <h1>Alexandrov Stanislav Vladimirovish</h1>
+                <img src="assets/img/photo.jpg" alt="avatar">
+            </section>
+            <section class="section" id="Contacts" style="order: 11;">
                 <h2>Contacts</h2>
                 <ul>
                     <li><b>Location:</b>  Krasnoyarsk, Russia </li>
-                    <li><b>Email:</b>setitles@gmail.com</li>
-                    <li><b>Discord:</b>@setitles</li>
-                    <li><b>GitHub:</b>setitles</li>
+                    <li><b>Email:</b> <a href="setitles@gmail.com">setitles@gmail.com</a></li>
+                    <li><b>Discord:</b> @setitles</li>
+                    <li><b>GitHub:</b> <a href="https://github.com/setitles">setitles</a></li>
                 </ul>
             </section>
-            <section class="section" id="About Me">
+            <section class="section" id="About_Me" style="order: 3;">
                 <h2>About Me</h2>
                 <p>I am working as a prodyction DBA. I have a small online store that I serve myself.
                     I like both DBA and Frontend. I have not decided to become a full-fledged Frontend developer or a Development DBA, a DBA developer.
                     I know for sure that Java Script can be used in both areas, so I am studying it at the moment.</p>
             </section>
-            <section class="section" id="Skills">
+            <section class="section" id="Skills" style="order: 2;">
                 <h2>Skills</h2>
                 <ul>
                     <li>HTML, CSS/SASS</li>
@@ -64,11 +63,11 @@
                     <li>Online checkout</li>  
                 </ul>
             </section>
-            <section class="section" id="Work Examples">
+            <section class="section" id="Work_Examples" style="order: 10;">
                 <h2>Work Examples</h2>
                 <p>Changed the design of the site from <a href="http://oldmain.consulsib.ru/">http://oldmain.consulsib.ru/</a> to <a href="http://consulsib.ru/">http://consulsib.ru/</a> applying knowledge of HTML, CSS, GIT.</p>
             </section>
-            <section class="section" id="Code Example">
+            <section class="section" id="Code_Example" style="order: 9;">
                 <h2>Code Example</h2>
                 <pre>
                 function sum(a, b) {
@@ -77,7 +76,7 @@
                 let result = sum(1, 2);
                 alert( result );</pre>
             </section>
-            <section class="section" id="Experience">
+            <section class="section" id="Experience" style="order: 6;">
                 <h2>Experience</h2>
                 <ul>
                     <li>2009-2012 System Administrator</li>
@@ -85,7 +84,7 @@
                     <li>2011-2022 Сreator, administrator, developer <a href="http://consulsib.ru/">online store consulsib.ru</a></li>
                 </ul>
             </section>
-            <section class="section" id="Education">
+            <section class="section" id="Education" style="order: 7;"> 
                 <h2>Education</h2>
                 <ul>
                     <li><b>University:</b></li>
@@ -99,14 +98,23 @@
                     </ul>
                 </ul>
             </section>
-            <section class="section" id="English">
+            <section class="section" id="English" style="order: 8;">
                 <h2>English</h2>
                 <p>A2 (Pre-Intermediate) I studied English at school. Sometimes I read English manuals, but slowly.</p>
             </section>
-        </category>
-    </main>
+        </main>
     <footer class="footer">
-
+        <div class="week"><p>© 2022 Setitles</p> </div> 
+        <div class="logo">
+            <a href="https://rs.school/">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="60px" height="22px">
+                <image  x="0px" y="0px" width="60px" height="22px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAWCAQAAAA2wjepAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAQYAIjXlw6ZQAAAEhElEQVRIx5XWe2zW1RnA8U8vYl9aUWpl6rCuM8IEGQiCBkVSZYAxwW04b0gylA0187YpW0AtG/MWNEY2I5q4uajoEkWlSDGpBFFkIpLOeokXtFCrSKFAZ1ug7fv4x/tr+3bWpD3nj9/JeS7f3znPJSfHT1Vo1yklR4c6T3jfQMZoN7nIcT5WZbl6pqlx0JiS7T866pS2ltRHqe3vpb9rlq/IaO3C0WhV5NQBgkc63YkYrV6Zekj7xpEjThs1tOxga1uqbq+mvgwvEkLYqVEIaecOADtLCC9aplMI44abpmjigic2RWbsi4c2/6C8L9OZQnjFicr8Wwh3DwD8DyH8BJd4yVaXTPWLyyubMtDP45OIiKg+WDzm+8BrcYTnhfCbAYAXC+FTm1QYYwhnzq7pjIjojKfilLg5Offvn8nL/6HsmWOmKtCh2VAtqv3agX6DC60w3TCwU1XOn56smnP2YWnvONdku03yiCGeq/vn1BN2ZhvmJt8GtYrl+NjsAWBpMdd4K7zpG6UWTNn28zN4zXQFLteu3EqVKEiVDj5e9sxPHKx2vfXKjVehot/YoW5XotZ1mOUlyssKUeYDf1TtelvMNBF7Gt9qOrnPGK/C5CS/J/cbfJR3hXCXcW4T4rEkpg2RH4/Gs3Fr7ImIiHnLGdxrdpXTGjlYJYRNSvqNnpQU4X4hvFrxSkRETVwbubEgusbbe1Lfyeo8edJqvexdbJOnVosNmvsJbvCCXZo0qfWwRW2tl84uUOMW11imAOw4dPvCD9bG9zgYotgQkAMKFTv6/3QGKehOxnwpecm6yDDHdB3ktjXtEZHuPu0b+341ZZRc8hQY1Nvhjy3xtjqvWaoUwy20zlYb/MWIbq0pnvWCq0CZx71oMU61xHqbrbHI6Zm4X7Vi4/YDBw7F1/FGLIpBX/mtsbjO81Y6qwc7Ur3QqEYI/zXdtiTJQmgwNtH7nRAeTX4ihGrl6rN095uWUS0cPnHxz2J8j6TVeUmPm9cDvkcIs7DEPk0OCqHSle4XwlZFYL4Q7gNjNQsfaRDCY+Z6UghfGk6uIyU98Dlz/U0IjbYIHa7sAf9ZCP+x1IVGulgI7zse3GupqUlkMuB1LjPbHQ51n6Y6iXm1EK4AM5LqKAQru3UPZYNP8qa0EFq86mmHhaf6SL/5WZeaPW9N5JmufSe4QQgPJJJr+gLnqzfZhRYpVer8ZLddrjSOkWdvL3yzXToVOal7p7PXN1MTmXzvSCR9VlKuea7WYYpJFmtPdsfKvBn+Zb0/JGWWGU8bbZQ52rp3uvL0bLADbAcTEsmELPvdPcvPhXALJmRF7n4zLNUh7HJs1lUvS1w1C19oElr91TRLdAh7ZRrysT4TwoNmWKhZ2O9DaZ1WudM9lruj5wXyut3CF+Z5T4jkRdHWVSKuFcLfwTkOC6tdmtRAuxA6kiqHC7RkeQm/9HDv3MjziS1KlBgh18tuVmm9IsdJ+Z9q821MXA0zTpt1NiNlolxvWWatYsUGa1TlRquz7nGdAiVSDtjgJpXOcIIP7bBDnb22fgu6kUVyBx1rfwAAAABJRU5ErkJggg==" />
+                </svg>
+            </a>
+        </div>
     </footer>
 </body>
 </html>
